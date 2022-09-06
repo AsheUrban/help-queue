@@ -1,12 +1,12 @@
 import React  from "react";
 import Header from "./Header";
-import TicketList from "./TicketList";
+import Feed from "./Feed";
 
 function App(){
   return (
     <React.Fragment>
       <Header />
-      <TicketList />
+      <Feed />
     </React.Fragment>
   );
 }
